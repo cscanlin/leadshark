@@ -1,1 +1,2 @@
 "# leadshark" 
+"This is a Python script I created to automate browser tasks in a CRM with no API support. It first parses emails for links to the "lead page" via IMAP server. It then checks the action log of the lead to see if the lead has been previously contacted, if not, it makes the initial contact via the sms portal and documents the interaction on the same web page. Written in Python 3.5. Uses imapclient, imaplib, pyzmail, pprint, os, selenium, & logging Modules"
